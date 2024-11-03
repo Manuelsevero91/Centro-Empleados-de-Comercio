@@ -26,6 +26,7 @@ const Home = () => {
       {/* Agrega aquí Cards y Footer cuando estén listos */}
 
     </div>
+    </div>
   );
 };
 
