@@ -1,6 +1,9 @@
 import React from 'react';
 import { Carousel, Button } from 'react-bootstrap';
-
+import "../Estilos/Carousel.css";
+import CarouselFachada from "../assets/CarouselFachada.jpg";
+import CarouselNoticias from "../assets/CarouselNoticias.webp";
+import CarouselAfiliate from "../assets/CarouselAfiliate.jpg";
 const CustomCarousel = () => {
   return (
     <Carousel interval={3000} pause="hover" controls={true} indicators={true}>
@@ -8,7 +11,7 @@ const CustomCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://via.placeholder.com/800x400"  // URL de ejemplo
+          src={CarouselFachada} // URL de ejemplo
           alt="Primer slide"
         />
         <Carousel.Caption>
@@ -22,13 +25,13 @@ const CustomCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://via.placeholder.com/800x400"  // URL de ejemplo
+          src={CarouselNoticias}
           alt="Segundo slide"
         />
         <Carousel.Caption>
-          <h3>Actividades y Eventos</h3>
-          <p>Conoce los próximos eventos y talleres.</p>
-          <Button variant="success">Ver Eventos</Button>
+          <h3>Noticias y novedades</h3>
+          <p>Conoce las últimas novedades.</p>
+          <Button variant="success">Ver Noticias</Button>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -36,7 +39,7 @@ const CustomCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://via.placeholder.com/800x400"  // URL de ejemplo
+          src={CarouselAfiliate}  
           alt="Tercer slide"
         />
         <Carousel.Caption>
