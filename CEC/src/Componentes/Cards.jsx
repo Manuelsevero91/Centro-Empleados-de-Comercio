@@ -44,9 +44,11 @@ const Cards = () => {
           />
           <Card.Body>
           <Card.Title className="custom-card-title">Servicios</Card.Title>
-            <Card.Text className="custom-car-text">
-              Descubre los servicios y beneficios locales y nacionales
-            </Card.Text>
+          <ul class="custom-list">
+  <p class="list-group-item text-white">TURISMO</p>
+  <p class="list-group-item text-white">SALUD</p>
+  <p class="list-group-item text-white">EXTRAS</p>  
+</ul>
             <Link to="/servicios">
               <Button variant="success">Descubrir</Button>
             </Link>
