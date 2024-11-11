@@ -7,7 +7,7 @@ const InformacionAfiliados = () => {
   return (
     <>
       <NavBar />
-      <div className="container mt-4">
+      <div className="container mt-4 custom-container">
         <h1>Información para Afiliados</h1>
         <Card className="mt-4 shadow">
           <Card.Body>
