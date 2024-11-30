@@ -4,6 +4,8 @@ import "../Estilos/Carousel.css";
 import CarouselFachada from "../assets/CarouselFachada.jpg";
 import CarouselNoticias from "../assets/CarouselNoticias.webp";
 import CarouselAfiliate from "../assets/CarouselAfiliate.jpg";
+import { Link } from 'react-router-dom';
+
 const CustomCarousel = () => {
   return (
     <Carousel interval={3000} pause="hover" controls={true} indicators={true}>
@@ -31,7 +33,9 @@ const CustomCarousel = () => {
         <Carousel.Caption>
           <h3>Noticias y novedades</h3>
           <p>Conoce las últimas novedades.</p>
+          <Link to="/noticias">
           <Button variant="success">Ver Noticias</Button>
+          </Link>
         </Carousel.Caption>
       </Carousel.Item>
 
