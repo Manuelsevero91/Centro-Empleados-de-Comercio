@@ -13,7 +13,7 @@ const InformacionAfiliados = () => {
           <Card.Body>
             <Card.Title>¿Qué es un Afiliado?</Card.Title>
             <Card.Text>
-              Ser afiliado significa tener acceso a un conjunto de servicios y beneficios diseñados 
+              Ser afiliado significa tener acceso a un conjunto de servicios y beneficios diseñados
               para el bienestar de nuestros miembros. Conoce tus derechos y obligaciones como afiliado.
             </Card.Text>
             <Button variant="primary">Más Información</Button>

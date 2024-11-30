@@ -8,18 +8,18 @@ import Afiliados from './Paginas/Afiliados'
 
 
 function App() {
- 
+
 
   return (
     <>
-    
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path ="/Nosotros" element={<Nosotros />} />
-      <Route path ="/Información Afiliados" element={<Afiliados />} />
-      <Route path ="/Servicios" element={<Servicios />} />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Nosotros" element={<Nosotros />} />
+        <Route path="/Información Afiliados" element={<Afiliados />} />
+        <Route path="/Servicios" element={<Servicios />} />
       </Routes>
-      
+
     </>
   )
 }

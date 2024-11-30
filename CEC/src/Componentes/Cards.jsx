@@ -26,7 +26,7 @@ const Cards = () => {
               Información Afiliados</Card.Title>
             <Card.Text className="custom-car-text">Toda la información legal</Card.Text>
             <Link to="Información Afiliados">
-            <Button variant="primary">Ver más</Button>
+              <Button variant="primary">Ver más</Button>
             </Link>
           </Card.Body>
         </Card>
@@ -43,12 +43,12 @@ const Cards = () => {
             style={{ width: "200px", height: "200px", objectFit: "cover" }}
           />
           <Card.Body>
-          <Card.Title className="custom-card-title">Servicios</Card.Title>
-          <ul class="custom-list">
-  <p class="list-group-item text-white">TURISMO</p>
-  <p class="list-group-item text-white">SALUD</p>
-  <p class="list-group-item text-white">EXTRAS</p>  
-</ul>
+            <Card.Title className="custom-card-title">Servicios</Card.Title>
+            <ul class="custom-list">
+              <p class="list-group-item text-white">TURISMO</p>
+              <p class="list-group-item text-white">SALUD</p>
+              <p class="list-group-item text-white">EXTRAS</p>
+            </ul>
             <Link to="/servicios">
               <Button variant="success">Descubrir</Button>
             </Link>
@@ -66,7 +66,7 @@ const Cards = () => {
             style={{ width: "200px", height: "200px", objectFit: "cover" }}
           />
           <Card.Body>
-          <Card.Title className="custom-card-title">Nosotros</Card.Title>
+            <Card.Title className="custom-card-title">Nosotros</Card.Title>
             <Card.Text className="custom-car-text">
               Comunícate con nosotros para obtener más información o resolver
               tus dudas.

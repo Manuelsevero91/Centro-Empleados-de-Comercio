@@ -13,7 +13,7 @@ const Servicios = () => {
           <Card.Body>
             <Card.Title>Beneficios para Afiliados</Card.Title>
             <Card.Text>
-              Ofrecemos una variedad de servicios para nuestros afiliados, incluyendo asesoría legal, 
+              Ofrecemos una variedad de servicios para nuestros afiliados, incluyendo asesoría legal,
               acceso a talleres de formación, y programas de salud.
             </Card.Text>
             <Button variant="primary">Más Información</Button>
