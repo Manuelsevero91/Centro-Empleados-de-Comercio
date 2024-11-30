@@ -1,6 +1,6 @@
 import React from "react";
 import CustomCarousel from "../Componentes/Carousel";
-import Cards from "../Componentes/Cards";
+// import Cards from "../Componentes/Cards";
 import CustomNavbar from "../Componentes/NavBar";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -12,7 +12,8 @@ const Home = () => {
 
       <div className="container mt-4">
         <CustomCarousel />
-        <Cards />
+        <div className="Home2"></div>
+        {/* <Cards /> */}
       </div>
     </div>
   );
