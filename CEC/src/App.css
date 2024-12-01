@@ -1,8 +1,9 @@
 /* App.css */
+html,
 #root {
   background-color: #174d86!important;
-  
+ 
 }
 .Home2{
-  height: 400px;
+  height: 300px;
 }
