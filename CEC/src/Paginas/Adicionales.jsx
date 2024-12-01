@@ -93,7 +93,7 @@ const Adicionales = () => {
                 Adicional manejo de dinero
               </h2>
               <p className="card-text text-white">
-                Todos los empleados tienen derecho a cobrar un adicional de cajero mensualmente, siempre que esta tarea se haga de manera habitual.
+                Los empleados que manejan dinero de forma habitual tienen derecho a cobrar el adicional de cajero mensualmente.
               </p>
             </div>
           </div>
@@ -104,10 +104,10 @@ const Adicionales = () => {
           <div className="card bg-secondary"> {/* Grey background */}
             <div className="card-body">
               <h2 className="card-title text-white">
-                Adicional por título
+                Adicional vidrierista
               </h2>
               <p className="card-text text-white">
-                Si tienes un título técnico o universitario, puedes acceder a este beneficio según lo establecido por la normativa.
+              Los empleados que realizan armado de vidriera en forma habitual tienen derecho a cobrar el adicional de vidrierista mensualmente.
               </p>
             </div>
           </div>
@@ -118,10 +118,10 @@ const Adicionales = () => {
           <div className="card bg-secondary"> {/* Grey background */}
             <div className="card-body">
               <h2 className="card-title text-white">
-                Adicional por zona
+                Adicional de chofer
               </h2>
               <p className="card-text text-white">
-                Este adicional aplica a quienes trabajan en zonas con condiciones desfavorables o de alto costo de vida.
+                Este adicional se aplica a quienes manejan vehículos de manera habitual para tareas inherentes a la empresa. Tanto para el chofer como para el ayudante de chofer.
               </p>
             </div>
           </div>
@@ -132,7 +132,7 @@ const Adicionales = () => {
           <div className="card bg-secondary"> {/* Grey background */}
             <div className="card-body">
               <h2 className="card-title text-white">
-                Adicional por productividad
+                Adicional xxxxxx
               </h2>
               <p className="card-text text-white">
                 Este adicional recompensa el desempeño destacado del empleado, basado en criterios de productividad.

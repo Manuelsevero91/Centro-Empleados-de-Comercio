@@ -1,32 +1,29 @@
-.custom-card {
-    background-color: #174d86!important;
+/* .custom-card {
+  background-color: #174d86 !important;
 }
 .custom-card-title {
-    color: #fff !important;
-font-size: 2.5rem;
+  color: #fff !important;
+  font-size: 2.5rem;
 }
-.custom-card-text{
-    color: #fff !important;
-    
+.custom-card-text {
+  color: #fff !important;
 }
 .text-white {
-    color: white;
-  }
-  .small-title {
-    font-size: 1.25rem; /* Cambia esto según prefieras */
-    font-weight: bold;
-  }
-
-  
-  .card-img-custom {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    border-radius: 0; /* Opcional: elimina bordes redondeados */
-  }
-  .mb-5{
-    border-radius: 0; /* Bordes cuadrados */
-  }
-  .custom-card1 {
-    background-color: #acb620!important;
+  color: white;
 }
+.small-title {
+  font-size: 1.25rem; 
+  font-weight: bold;
+}
+.card-img-custom {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 0; 
+}
+.mb-5 {
+  border-radius: 0; 
+}
+.custom-card1 {
+  background-color: #acb620 !important;
+} */

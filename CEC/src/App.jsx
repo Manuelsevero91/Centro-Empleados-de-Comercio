@@ -12,6 +12,7 @@ import Extras from './Paginas/Extras';
 import CustomNavbar from './Componentes/NavBar';
 import CustomInfo from './Paginas/Nosotros';
 import Noticias from './Paginas/Noticias';
+import CustomFooter from './Componentes/Footer';
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
 
     <Router>
       <CustomNavbar />
-      <div style={{ paddingTop: "80px" }}> 
+      <div style={{ paddingTop: "50px" }}> 
         <Routes>
 
           <Route path="/" element={<Home />} />
@@ -35,6 +36,7 @@ function App() {
           <Route path="/Noticias" element={<Noticias />} />
         </Routes>
       </div>
+      <CustomFooter />
     </Router>
 
 
