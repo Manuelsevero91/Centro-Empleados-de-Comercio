@@ -27,3 +27,6 @@
 .custom-card1 {
   background-color: #acb620 !important;
 } */
+.custom-card {
+  padding: 20px; /* Ajusta el valor según sea necesario */
+}
