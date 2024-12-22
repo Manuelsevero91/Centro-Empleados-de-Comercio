@@ -1,0 +1,18 @@
+.categorias-page {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url('../assets/CarouselAfiliate.jpg'); /* Reemplaza con tu imagen */
+    background-size: cover; /* Cubre todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    color: white; /* Texto en blanco */
+    height: 100%; /* Ocupa toda la altura de la pantalla */
+    padding: 90px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  

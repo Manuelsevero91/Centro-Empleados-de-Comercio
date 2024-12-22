@@ -3,7 +3,7 @@ import CustomCarousel from "../Componentes/Carousel";
 // import Cards from "../Componentes/Cards";
 import CustomNavbar from "../Componentes/NavBar";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import "../App.css"; 
 const Home = () => {
   return (
     <div>

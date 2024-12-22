@@ -27,7 +27,7 @@ const CustomNavbar = () => {
             {/* <Nav.Link as={NavLink} to="/">Inicio</Nav.Link> */}
 
             {/* Dropdown para Información */}
-            <NavDropdown title="Información" id="dropdown-informacion">
+            <NavDropdown title="Información para el afiliado" id="dropdown-informacion">
               <NavDropdown.Item as={NavLink} to="/licencias">Licencias</NavDropdown.Item>
               <NavDropdown.Item as={NavLink} to="/adicionales">Adicionales</NavDropdown.Item>
               <NavDropdown.Item as={NavLink} to="/categorias">Categorías</NavDropdown.Item>
