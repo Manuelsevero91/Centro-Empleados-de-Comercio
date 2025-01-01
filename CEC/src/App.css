@@ -1,9 +1,20 @@
-/* App.css */
+/* App.css
 html,
 #root {
   background-color: #174d86!important;
  
-}
+}*/
 .Home2{
-  height: 200px;
+  height: 120px;
+}  
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: #174d86!important;
 }
