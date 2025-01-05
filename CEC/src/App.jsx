@@ -1,29 +1,33 @@
-import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./Estilos/Adicionales.css";
+import "./Estilos/Licencias.css";
+import "./Estilos/Salud.css";
+import "./Estilos/Footer.css";
+import "./Estilos/CustomTitle.css";
+import "./Estilos/NavBar.css";
+import "./Estilos/Categorias.css";
+import './Estilos/Turismo.css';
 import Home from "./Paginas/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Licencias from './Paginas/Licencias';
-import Adicionales from './Paginas/Adicionales';
-import Categorias from './Paginas/Categorias';
-import Jubilacion from './Paginas/Jubilacion';
-import Salud from './Paginas/Salud';
-import Turismo from './Paginas/Turismo';
-import Extras from './Paginas/Extras';
-import CustomNavbar from './Componentes/NavBar';
-import CustomInfo from './Paginas/Nosotros';
-import Noticias from './Paginas/Noticias';
-import CustomFooter from './Componentes/Footer';
+import Licencias from "./Paginas/Licencias";
+import Adicionales from "./Paginas/Adicionales";
+import Categorias from "./Paginas/Categorias";
+import Jubilacion from "./Paginas/Jubilacion";
+import Salud from "./Paginas/Salud";
+import Turismo from "./Paginas/Turismo";
+import Extras from "./Paginas/Extras";
+import CustomNavbar from "./Componentes/NavBar";
+import CustomInfo from "./Paginas/Nosotros";
+import Noticias from "./Paginas/Noticias";
+import CustomFooter from "./Componentes/Footer";
 
 function App() {
-
-
   return (
-
     <Router>
       <CustomNavbar />
-      <div style={{ paddingTop: "50px" }}> 
+      <div style={{ paddingTop: "50px" }}>
         <Routes>
-
           <Route path="/" element={<Home />} />
           <Route path="/Licencias" element={<Licencias />} />
           <Route path="/Adicionales" element={<Adicionales />} />
@@ -38,9 +42,7 @@ function App() {
       </div>
       <CustomFooter />
     </Router>
-
-
-  )
+  );
 }
 
 export default App;

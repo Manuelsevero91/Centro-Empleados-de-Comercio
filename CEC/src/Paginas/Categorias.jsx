@@ -1,12 +1,12 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
-import "../Estilos/Categorias.css"; // Custom styles (if needed)
-import "../Estilos/Cards.css";
+// import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
+// import "../Estilos/Categorias.css"; // Custom styles (if needed)
+// import "../Estilos/Cards.css";
 
 const Categorias = () => {
   return (
     <div className="categorias-page container-fluid mt-1">
-      <h1 className="title text-center mb-4 text-white">
+      <h1 className="text-center mb-2 text-white custom-title">
         Todas las categorías de empleados de comercio
       </h1>
       <div className="row justify-content-center">

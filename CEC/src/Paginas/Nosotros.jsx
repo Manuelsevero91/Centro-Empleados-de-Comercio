@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, ListGroup } from 'react-bootstrap';
 import NavBar from '../Componentes/NavBar';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 const CustomInfo = () => {
   return (
