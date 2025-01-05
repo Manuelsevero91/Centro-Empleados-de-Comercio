@@ -1,5 +1,5 @@
 .carousel-item img {
-  height: 400px; /* Ajusta la altura a tu preferencia */
+  height: 500px; /* Ajusta la altura a tu preferencia */
   object-fit: cover; /* Asegura que la imagen se recorte sin distorsionarse */
 }
 h3{
