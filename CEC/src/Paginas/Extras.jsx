@@ -19,7 +19,7 @@ const Extras = () => {
             <ListGroup.Item>Consultorios médicos</ListGroup.Item>
             <ListGroup.Item>Subsidios por nacimiento</ListGroup.Item>
             <ListGroup.Item>Subsidios por casamiento</ListGroup.Item>
-            <ListGroup.Item>Ajuar por nacimiento</ListGroup.Item>
+            <ListGroup.Item>Subsidio por fallecimiento</ListGroup.Item>
             <ListGroup.Item>Espacio para eventos</ListGroup.Item>
             <ListGroup.Item>Convenios con gimnasio</ListGroup.Item>
           </ListGroup>

@@ -9,7 +9,7 @@ import {
   NavDropdown,
 } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import "../Estilos/NavBar.css";
+// import "../Estilos/NavBar.css";
 
 const CustomNavbar = () => {
   return (

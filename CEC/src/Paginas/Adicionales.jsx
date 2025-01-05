@@ -1,11 +1,11 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
-import "../Estilos/Adicionales.css"; // Custom styles (if needed)
-import "../Estilos/Cards.css"
+// import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
+// import "../Estilos/Adicionales.css"; // Custom styles (if needed)
+// import "../Estilos/Cards.css"
 const Adicionales = () => {
   return (
     <div className="adicionales-page container-fluid mt-1">
-      <h1 className="title text-center mb-4 text-white">
+      <h1 className="text-center mb-2 text-white custom-title">
         Adicionales a cobrar en tu sueldo
       </h1>
       <div className="row">

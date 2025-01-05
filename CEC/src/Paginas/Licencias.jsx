@@ -1,11 +1,12 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
-import "../Estilos/Adicionales.css"; // Custom styles (if needed)
-import "../Estilos/Licencias.css";
+// import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
+// import "../Estilos/Adicionales.css"; // Custom styles (if needed)
+// import "../Estilos/Licencias.css";
+
 const Licencias = () => {
   return (
     <div className="licencias-page container-fluid mt-1">
-      <h1 className="title text-center mb-2 text-white custom-title">
+      <h1 className="text-center mb-2 text-white custom-title">
         Todas las licencias
       </h1>
       <div className="row">
