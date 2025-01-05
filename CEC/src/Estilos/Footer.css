@@ -1,0 +1,28 @@
+.footer {
+  background-color: #f5f7f8; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+  margin: 0%;
+  height: 150px;
+
+}
+
+.footer .text-body-secondary {
+  color: #2a2e31 !important; /* Color de texto secundario */
+  font-size: .8rem;
+}
+
+.footer a {
+  color: #adb5bd !important; /* Color de los enlaces */
+}
+
+.footer a:hover {
+  color: #269b91 !important; /* Color de los enlaces al pasar el ratón */
+}
+.footer-logo {
+    height: 120px; /* Ajusta el tamaño del logo según sea necesario */
+    margin-left: 10px;
+  }
+  .my-4 {
+    margin-top: 0rem !important; 
+    margin-bottom:0rem !important; 
+}

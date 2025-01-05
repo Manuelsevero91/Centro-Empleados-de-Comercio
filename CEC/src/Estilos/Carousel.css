@@ -1,0 +1,10 @@
+.carousel-item img {
+  height: 500px; /* Ajusta la altura a tu preferencia */
+  object-fit: cover; /* Asegura que la imagen se recorte sin distorsionarse */
+}
+h3{
+    font-size: 3em;
+    color: whitesmoke;
+    text-shadow: 5px 5px 5px rgb(5, 5, 8);
+    text-shadow: 5px 5px 5px rgb(5, 5, 8);
+}

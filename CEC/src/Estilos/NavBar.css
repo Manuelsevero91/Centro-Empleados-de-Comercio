@@ -1,0 +1,23 @@
+.bg-dark{
+    background-color: #134375 !important;
+}
+.navbar-nav .nav-link {
+    color: #fff;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #9bea7e; /* Cambia el color cuando pasas el mouse */
+  }
+  /* Cambiar el color de fondo y texto del item seleccionado */
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #9bea7e !important; /* Color de fondo */
+  color: #134375 !important; /* Color del texto */
+}
+
+/* Si también quieres un hover diferente en el dropdown */
+.dropdown-item:hover {
+  background-color: #76c96d !important; /* Fondo en hover */
+  color: #fff !important; /* Color del texto en hover */
+}
